@@ -26,7 +26,7 @@ let grandTotal = total + shipping + tax;
                       <hr />
                         <h1 className='text-1xl text-start font-bold my-2'>Tax:{tax.toFixed(2)} </h1>
                         <hr />
-                        <h1 className='text-1xl text-start font-bold py-4'>Grand Total:{grandTotal} </h1>
+                        <h1 className='text-1xl text-start font-bold py-4'>Grand Total:{grandTotal.toFixed(2)} </h1>
                         <hr />
                         <button className="btn btn-success my-5">Clear cart <FontAwesomeIcon icon={faTrashCan} /></button>
                         <hr />
