@@ -11,10 +11,11 @@ const Products = () => {
             .then(res =>res.json())
             .then(data =>setProducts(data))
       },[]);
-
+      
       const handelAddToCart =(product)=>{
             const newCat = [...cart, product];
             setCart(newCat);
+
       }
       return (
             <div className='flex justify-between'>
